@@ -25,3 +25,5 @@ function arrange(...arrays) {
 	for (let i = 0; i < arrays.length; i ++) if (Array.isArray(arrays[i])) array.push(...arrays[i])
 	return array;
 }
+
+module.exports = { equal, arrange };
